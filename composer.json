@@ -1,5 +1,6 @@
 {
-  "name": "yiisoft/yii2-phpunit",
+  "name": "kartavik/yii2-phpunit",
+  "license": "MIT",
   "description": "Yii 2 PHPUnit compatibility layer and enhancements",
   "type": "library",
   "require-dev": {
