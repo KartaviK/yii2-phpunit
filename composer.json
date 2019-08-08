@@ -19,6 +19,7 @@
   "minimum-stability": "stable",
   "require": {
     "yiisoft/yii2": "^2.0.13.1",
-    "phpunit/phpunit": "^6.5 || ^7 || ^8"
+    "phpunit/phpunit": "^6.5 || ^7 || ^8",
+    "php": "^7.1"
   }
 }
