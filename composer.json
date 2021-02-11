@@ -1,26 +1,25 @@
 {
     "name": "kartavik/yii2-phpunit",
-    "license": "MIT",
-    "description": "Yii 2 PHPUnit compatibility layer and enhancements",
     "type": "library",
-    "require-dev": {
-    },
-    "autoload": {
-        "psr-4": {
-            "yii\\phpunit\\": "src/"
-        }
-    },
+    "description": "Yii 2 PHPUnit compatibility layer and enhancements",
+    "license": "MIT",
     "authors": [
         {
             "name": "Alexander Letnikow",
             "email": "reclamme@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=7.1",
-        "yiisoft/yii2": "^2.0.13.1",
         "phpunit/phpunit": "^6.5 || ^7 || ^8 || ^9.0",
-        "yidas/yii2-composer-bower-skip": "^2.0.0"
-    }
+        "yidas/yii2-composer-bower-skip": "^2.0.0",
+        "yiisoft/yii2": "^2.0.13.1"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "yii\\phpunit\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
 }
